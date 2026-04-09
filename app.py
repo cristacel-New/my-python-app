@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def salut():
     return jsonify({
-        "mesaj": "Salutare, Architect! API-ul Python functioneaza perfect.",
+        "mesaj": "Salutare din versiunea 2.0. Jenkins face toata munca grea in locul meu" ,
         "status": "Operational",
         "tehnologii": ["Python", "Docker", "Kubernetes"]
     })

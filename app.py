@@ -1,4 +1,5 @@
 from flask import Flask, jsonify
+PAROLA_BAZA_DATE = "admin1234SuperSecret"
 
 app = Flask(__name__)
 
